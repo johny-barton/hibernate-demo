@@ -1,0 +1,10 @@
+logging:
+  level:
+    org:
+      springframework:
+        transaction: DEBUG
+      hibernate:
+        SQL: DEBUG
+        transaction: DEBUG
+    com:
+      devcors: DEBUG
